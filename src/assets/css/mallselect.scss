@@ -1,0 +1,52 @@
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.select {
+    padding: 10px 5px 0 5px;
+    text-align: left;
+    &.logoimg {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+.logoimg img {
+    width: 100%;
+}
+
+.brand {
+    p {
+        margin-top: 10px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 14px;
+    }
+    ul {
+        li {
+            width: 30%;
+            margin-right: 3%;
+            float: left;
+            img {
+                width: 100%;
+                margin: 6px 0;
+            }
+        }
+    }
+}
+
+.brandimg {
+    padding-top: 10px;
+    text-align: center;
+    li {
+        width: 44%;
+        margin: 3%;
+        float: left;
+        img {
+            width: 100%;
+            padding: 10px 0;
+        }
+    }
+}
